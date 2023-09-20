@@ -290,8 +290,8 @@ Initializing provider plugins...
 mahsan@vmmint:~/Project$ cat first_ec2.tf 
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIA54UN4WGMYGPQRZXD"
-  secret_key = "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"
+  access_key = "XXXXX"
+  secret_key = "XXXXX"
 }
 
 resource "aws_instance" "myec2" {
@@ -416,8 +416,8 @@ Note: You didn't use the -out option to save this plan, so Terraform can't guara
 mahsan@vmmint:~/Project$ cat first_ec2.tf 
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIA54UN4WGMYGPQRZXD"
-  secret_key = "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"
+  access_key = "XXXXXXXXXXXX"
+  secret_key = "XXXXXXXXXXXX"
 }
 
 resource "aws_instance" "myec2" {
